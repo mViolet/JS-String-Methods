@@ -30,7 +30,7 @@ Each method listed below will include the following:</p>
 <a href="#toUpperCase">toUpperCase</a><br>
 <a href="#trim">trim</a></p>
 <h2 id="charAt">charAt</h2>
-<p>string.prototype.charAt() takes in an index number, and returns the character at that position. If there is nothing there, it gives back an empty string <code>""</code>.</p>
+<p><code>String.prototype.charAt()</code> takes in an index number, and returns the character at that position. If there is nothing there, it gives back an empty string <code>""</code>.</p>
 <p><em><strong>Parameters accepted:</strong></em><br>
 </p><p>charAt() accepts one parameter:</p>
 <ul>
@@ -56,7 +56,7 @@ str.charAt(99)
 </code></pre>
 <p><a href="#list-of-string-methods">Back to the list</a></p>
 <h2 id="charCodeAt">charCodeAt</h2>
-<p>string.prototype.charCodeAt() takes in an index and returns the Unicode number of the character at that index. This will always be a number between 0 and 65535. If the index is out of the range for the string, charCodeAt() will return <code>NaN</code></p>
+<p><code>String.prototype.charCodeAt()</code> takes in an index and returns the Unicode number of the character at that index. This will always be a number between 0 and 65535. If the index is out of the range for the string, <code>.charCodeAt()</code> will return <code>NaN</code></p>
 <p><em><strong>Parameters accepted:</strong></em><br>
 </p><p>charCodeAt() takes in one parameter:</p>
 <ul>
@@ -82,7 +82,7 @@ str.charCodeAt(99)
 </code></pre>
 <p><a href="#list-of-string-methods">Back to the list</a></p>
 <h2 id="concat">concat</h2>
-<p>string.prototype.concat() concatenates (or joins together) the calling string with any strings passed in as arguments. Strings are joined together as-is, so be mindful of spaces!</p>
+<p><code>String.prototype.concat()</code> concatenates (or joins together) the calling string with any strings passed in as arguments. Strings are joined together as-is, so be mindful of spaces!</p>
 <p><em><strong>Parameters accepted:</strong></em><br>
 </p><ul>
 </ul><li>one or more strings</li>
@@ -108,8 +108,8 @@ console.log("".concat(...greeting))
 </code></pre>
 <p><a href="#list-of-string-methods">Back to the list</a></p>
 <h2 id="includes">includes</h2>
-<p>string.prototype.includes() checks if the calling string contains the string that is passed into it. You can pass in an optional position to tell it when to start searching. .includes() returns a boolean (true or false). It is case-sensitive!
-</p><p><em><strong>Parameters accepted:</strong></em><br>
+<p><code>String.prototype.includes()</code> checks if the calling string contains the string that is passed into it. You can pass in an optional position to tell it when to start searching. <code>.includes()</code> returns a boolean (<code>true</code> or <code>false</code>). It is case-sensitive!</p>
+<p><em><strong>Parameters accepted:</strong></em><br>
 </p><p>This method can take two parameters:</p>
 <ul>
 </ul><li>search string (required)</li>
@@ -135,7 +135,7 @@ sentence.includes('How', 1)
 </code></pre>
 <p><a href="#list-of-string-methods">Back to the list</a></p>
 <h2 id="indexOf">indexOf</h2>
-<p>string.prototype.indexOf() is a really handy method that takes in a string (the search value),  and returns the index of the first instance of the search value within the calling string. If it isn't found, .indexOf() will return =1. </p>
+<p><code>string.prototype.indexOf()</code> is a really handy method that takes in a string (the search value),  and returns the index of the first instance of the search value within the calling string. If it isn’t found, <code>.indexOf()</code> will return <code>-1</code>.</p>
 <p><em><strong>Parameters accepted:</strong></em><br>
 </p><p>.indexOf() takes in two parameters:</p>
 <ul>
